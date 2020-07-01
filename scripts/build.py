@@ -12,6 +12,7 @@ def generateWithFeatures(font, fea, name, dest="./redist/"):
     font.appendSFNTName("English (US)", "Family", name)
     font.appendSFNTName("English (US)", "Fullname", name)
     font.generate(dest + name + ".otf")
+    font.generate(dest + name + ".ttf")
 
 
 if __name__ == "__main__":

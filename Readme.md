@@ -1,19 +1,20 @@
-## UnaCorda
+## UnaCorda and WalkingBossa
 
 ![Preview of UnaCorda](UnaCorda.png?raw=true)
+![Preview of WalkingBossa](WalkingBossa.png?raw=true)
 
-UnaCorda is a font for music notation of jazz chord symbols. It allows to seamlessly create beautifully layout chord symbols without the help of an external parser.
+UnaCorda and WalkingBossa are fonts for music notation of jazz chord symbols. They allow to seamlessly create beautifully layout chord symbols without the help of an external parser.
 
-This font is inspired by the work of [Florian Kretlow](https://github.com/fkretlow) and the impressive [Figurato](https://github.com/fkretlow/figurato) font he developed for figured bass, as well as the work of Ronald Caltabiano and his pioneering Sicilian Numerals font. However, the idea came from [Marc Sabatella](https://github.com/MarcSabatella) and his incredible [Campania](https://github.com/MarcSabatella/Campania) font.
-This current version uses glyphs from [Petaluma](https://github.com/steinbergmedia/petaluma) and adds some relatively straightforward contextual substitutions and positioning rules to allow you to enter the most common symbols just by typing naturally.
+These fonts are inspired by the work of [Florian Kretlow](https://github.com/fkretlow) and the impressive [Figurato](https://github.com/fkretlow/figurato) font he developed for figured bass, as well as the work of Ronald Caltabiano and his pioneering Sicilian Numerals font. However, the idea came from [Marc Sabatella](https://github.com/MarcSabatella) and his incredible [Campania](https://github.com/MarcSabatella/Campania) font.
+This current version of WalkingBossa uses glyphs from [Petaluma](https://github.com/steinbergmedia/petaluma), and UnaCorda uses glyphs from [Bravura](https://github.com/steinbergmedia/bravura). Layout is achieved with some relatively straightforward contextual substitutions and positioning rules to allow you to enter the most common symbols just by typing naturally.
 
-You can download either the [TTF](redist/UnaCorda.ttf?raw=true) or [OTF](redist/UnaCorda.otf?raw=true) files and follow the standard procedures for installing and selecting fonts on your system.
+You can download UnaCorda ([TTF](redist/UnaCorda.ttf?raw=true), [OTF](redist/UnaCorda.otf?raw=true)) and WalkingBossa ([TTF](redist/WalkingBossa.ttf?raw=true), [OTF](redist/WalkingBossa.otf?raw=true)) and follow the standard procedures for installing and selecting fonts on your system.
 
-To use UnaCorda, simply type as you normally would, and the formatting happens automatically.
+To use these fonts, simply type as you normally would, and the formatting happens automatically.
+# To be edited!!!--------------------------
 Numeric indications for inversions and seventh/extended chords (e.g., 6, 7, 64, 643, 43, 9, 13) are automatically superscripted and stacked vertically.
 When used in a context where this makes sense,
 
-# To be edited!!!--------------------------
 "b" and "#" turn into flat and sharp,
 "bb" and "##" turn into double flat and double sharp,
 "h" turns into natural,
