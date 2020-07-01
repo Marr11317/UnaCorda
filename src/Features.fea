@@ -1,0 +1,9 @@
+languagesystem DFLT dflt;
+languagesystem latn dflt;
+
+include(CLASSES.fea);
+
+include(GSUB.fea);
+
+include(GPOS_layers.fea);
+include(GPOS.fea);
