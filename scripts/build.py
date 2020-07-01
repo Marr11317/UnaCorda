@@ -15,11 +15,17 @@ def generateWithFeatures(font, fea, name, dest="./redist/"):
 
 
 if __name__ == "__main__":
-    f = fontforge.open("./src/Figurato.sfd")
 
-    print("generating Figurato.otf")
-    generateWithFeatures(f, "./src/figurato_T.fea", "Figurato")
-    print("generating FiguratoB.otf")
-    generateWithFeatures(f, "./src/figurato_B.fea", "FiguratoB")
+    print("Opening UnaCorda.sfd")
+    f = fontforge.open("./src/UnaCorda.sfd")
+    print("generating UnaCorda.otf")
+    generateWithFeatures(f, "./src/Features.fea", "UnaCorda")
+    print("Closing UnaCorda.sfd")
+    f.close()
 
+    print("Opening WalkingBossa.sfd")
+    f = fontforge.open("./src/WalkingBossa.sfd")
+    print("generating WalkingBossa.otf")
+    generateWithFeatures(f, "./src/Features.fea", "WalkingBossa")
+    print("Closing WalkingBossa.sfd")
     f.close()
