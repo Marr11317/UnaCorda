@@ -7,10 +7,9 @@ UnaCorda is a font for music notation of jazz chord symbols. It allows to seamle
 This font is inspired by the work of [Florian Kretlow](https://github.com/fkretlow) and the impressive [Figurato](https://github.com/fkretlow/figurato) font he developed for figured bass, as well as the work of Ronald Caltabiano and his pioneering Sicilian Numerals font. However, the idea came from [Marc Sabatella](https://github.com/MarcSabatella) and his incredible [Campania](https://github.com/MarcSabatella/Campania) font.
 This current version uses glyphs from [Petaluma](https://github.com/steinbergmedia/petaluma) and adds some relatively straightforward contextual substitutions and positioning rules to allow you to enter the most common symbols just by typing naturally.
 
-Campania is bundled with MuseScore 3.3, but you can install the font normally on your system as well if you wish to use it with other programs.
-You can download either the [TTF](Campania.ttf?raw=true) or [OTF](Campania.otf?raw=true) files and follow the standard procedures for installing and selecting fonts on your system.
+You can download either the [TTF](redist/UnaCorda.ttf?raw=true) or [OTF](redist/UnaCorda.otf?raw=true) files and follow the standard procedures for installing and selecting fonts on your system.
 
-To use Campania, simply type as you normally would, and the formatting happens automatically.
+To use UnaCorda, simply type as you normally would, and the formatting happens automatically.
 Numeric indications for inversions and seventh/extended chords (e.g., 6, 7, 64, 643, 43, 9, 13) are automatically superscripted and stacked vertically.
 When used in a context where this makes sense,
 
