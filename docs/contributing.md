@@ -14,4 +14,4 @@ These are the steps to use the automatic build system (recommended):
 
     This will generate all the files in the redist directory.
 
-Happy featuring filing!
+Happy feature filing!
