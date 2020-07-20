@@ -18,14 +18,14 @@ def generateWithFeatures(font, fea, name, dest="./redist/"):
 if __name__ == "__main__":
 
     print("Opening UnaCorda.sfd")
-    f = fontforge.open("./src/UnaCorda.sfd")
+    f = fontforge.open("./src/fonts/UnaCorda.sfd")
     print("generating UnaCorda.otf")
     generateWithFeatures(f, "./src/Features.fea", "UnaCorda")
     print("Closing UnaCorda.sfd")
     f.close()
 
     print("Opening WalkingBossa.sfd")
-    f = fontforge.open("./src/WalkingBossa.sfd")
+    f = fontforge.open("./src/fonts/WalkingBossa.sfd")
     print("generating WalkingBossa.otf")
     generateWithFeatures(f, "./src/Features.fea", "WalkingBossa")
     print("Closing WalkingBossa.sfd")
